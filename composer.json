@@ -1,0 +1,14 @@
+{
+    "name": "natewr/pkp-theme-helper-docs",
+    "description": "Documentation generator for pkp-theme-helper",
+    "license": "GPL",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/NateWr/pkp-theme-helper"
+        }
+    ],
+    "require": {
+        "natewr/pkp-theme-helper": "dev-main"
+    }
+}

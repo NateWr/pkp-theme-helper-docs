@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "078a999b5ba99749a37763f499bd41c0",
+    "packages": [
+        {
+            "name": "NateWr/pkp-theme-helper",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/NateWr/pkp-theme-helper.git",
+                "reference": "016aaf7e47f1ba742b026cb4df85945d726a8336"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NateWr/pkp-theme-helper/zipball/016aaf7e47f1ba742b026cb4df85945d726a8336",
+                "reference": "016aaf7e47f1ba742b026cb4df85945d726a8336",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NateWr\\themehelper\\": "src/"
+                }
+            },
+            "license": [
+                "GPL3"
+            ],
+            "authors": [
+                {
+                    "name": "Nate Wright",
+                    "email": "natew@notthisway.com"
+                }
+            ],
+            "description": "A library of helper functions to build themes for PKP software (OJS, OMP, and OPS).",
+            "support": {
+                "source": "https://github.com/NateWr/pkp-theme-helper/tree/main",
+                "issues": "https://github.com/NateWr/pkp-theme-helper/issues"
+            },
+            "time": "2024-11-13T13:52:59+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "natewr/pkp-theme-helper": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
